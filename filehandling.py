@@ -9,7 +9,8 @@ from pprint import pprint
 from datetime import datetime
 #Function to convert pdf to excel
 def convert_pdf_to_excel(path):
-    conversion = pdftables_api.Client('sbjxzbd1kkxa')
+    #Add your api key
+    conversion = pdftables_api.Client('') 
     time= datetime.now()
     file_name = '{}_{}'.format(path[0:4],time.strftime('%b'))
     conversion.xlsx(path, file_name)
