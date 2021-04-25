@@ -1,6 +1,6 @@
 # Finance-automation
 
-Create an account on pdftable_api and use the api key to convert pdf to excel.\n 
+Create an account on pdftable_api and use the api key to convert pdf to excel.
 Add the api key in filehandling.py
 Email can only be sent and recived from gmail (Sender has to disable 2-setep-authentication)
 Install pdftable_api
