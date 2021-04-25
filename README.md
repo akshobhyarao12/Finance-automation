@@ -1,6 +1,7 @@
 # Finance-automation
 
 Create an account on pdftable_api and use the api key to convert pdf to excel. 
+Add the api key in filehandling.py
 
 Install pdftable_api
 pip install https://github.com/pdftables/python-pdftables-api/archive/master.tar.gz
